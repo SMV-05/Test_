@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" sizes="16x16">
+    <title>Conversor</title>
+</head>
+<body>
+    <h1>Conversor de Millas a Km</h1>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index5.html">Inicio</a></li>
+            <li><a href="#Ford">Ford</a></li>
+            <li><a href="Porsche.html">Porsche</a></li>
+            <li><a href="Mclaren.html">Mclaren</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="conversor.html">Conversor</a></li>
+        </ul>
+    </nav>
+        <script>
+            function convertirMillasAKilometros() {
+              var millas = parseFloat(document.getElementById("millas").value);
+              var kilometros = millas * 1.60934;
+              document.getElementById("kilometros").value = kilometros.toFixed(2);
+            }
+          </script>
+        <div style="text-align: center; color: burlywood;">
+        <label for="millas">Millas:</label>
+        <input type="number" id="millas" step="any" />
+        <br />
+        <button onclick="convertirMillasAKilometros()">Convertir</button>
+        <br />
+        <label for="kilometros">Kilómetros:</label>
+        <input type="text" id="kilometros" readonly />
+    </div>
+      
+
+</body>
+</html>

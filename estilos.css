@@ -1,0 +1,290 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  font-size: 14px;
+  grid: inherit;
+}
+
+h1 {
+  color: #8103b4;
+  text-align: center;
+}
+
+h2 {
+  color: #6409cb;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  text-size-adjust: auto;
+}
+
+p {
+  margin: 0;
+}
+
+.brand {
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.brand-description {
+  color: #666;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 1000px;
+}
+
+.contenedor {
+  margin: 50px auto;
+  float: left;
+  height: 10px;
+}
+
+.contenedor1{
+  margin: 50px auto;
+  float: right;
+  height: 10px;
+}
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h4{
+  margin-right: auto;
+}
+
+b{
+  min-width: 480px;
+}
+
+.fgx{
+  padding-top: 20px;
+  margin: 8px 16px;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.fg{
+  display: inline;
+  width: 100%;
+  max-width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left !important;
+  box-sizing: border-box;
+
+}
+
+h3{
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  text-align:left; 
+}
+
+.ftr{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.fgt{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+.gt{
+  box-sizing: border-box;
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.gt3{
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+.tabla{
+  width: 100%;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+.gt2{
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  box-sizing: border-box;
+}
+.gt1{
+  height: auto;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box; 
+}
+.gt4{
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  display: flex;
+  opacity: 1;
+}
+
+.tr{
+  height: 0;
+  position: absolute;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.tr1{
+  border-bottom: 1px solid #e3e4e4;
+  box-sizing: border-box;
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.td{
+  padding-left: 0;
+  padding-right: 20px;
+  color: #626669;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 51%;
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: inherit;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.td1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.b{
+  width: 100%;
+  padding: 0 0 8px 8px;
+  font-size: 70px;
+  line-height: 1.11428571;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+}
+
+.b2{
+  font-size: 24px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  box-sizing:border-box;
+  font-family: 'fordngbs-antenna-light',arial,helvetica,sans-serif !important;
+  text-align: center;
+  padding: 56px;
+  transform: translate3d(-100%,0,0);
+  margin-left: 50px;
+}
+
+.i{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image {
+  transition: transform 0.2s, filter 0.2s ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05); 
+  filter: brightness(80%);
+}
